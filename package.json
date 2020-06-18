@@ -1,0 +1,25 @@
+{
+  "name": "carsome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=dev nodemon index.js",
+    "start": "NODE_ENV=prod nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nour477/carSome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nour477/carSome/issues"
+  },
+  "homepage": "https://github.com/Nour477/carSome#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1"
+  }
+}
